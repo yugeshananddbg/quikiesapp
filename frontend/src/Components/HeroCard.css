@@ -1,0 +1,46 @@
+.cardBox{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw;
+}
+
+.heroImg{
+    width: 40px;
+}
+.card{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px ;
+    cursor: pointer;
+    width: 20vw;
+}
+.card:hover{
+    border: 1px solid rgb(31, 19, 7);
+}
+.heroCompany{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.value {
+    text-align: center;
+    font-size: 30px;
+}
+@media only screen and (max-width: 850px) {
+    .cardBox{
+        flex-direction: column;
+        margin: 2vh;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       height: 25vh;
+       width: 100%;
+       margin-top: 2vh;
+    }
+    .heroCompany h4{
+        margin-right: 30vw;
+    }
+  }

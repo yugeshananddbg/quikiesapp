@@ -1,0 +1,16 @@
+.btnStyle{
+    padding: 10px;
+    align-items: center;
+    border-radius: 6px;
+}
+.view{
+    
+    background-color: blueviolet;
+    margin-left: 1vw;
+}
+.save{
+    background-color: rgb(25, 202, 247);
+}
+.butn{
+    text-align: center;
+}

@@ -1,0 +1,95 @@
+.stockTable{
+    margin: 1vw 5vw;
+    padding: 1px ;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+}
+
+.symbol{
+    list-style-type: disc;
+   color: rgb(81, 27, 131 );
+   background-color: rgba(81, 27, 131, 0.219); 
+    padding: 4px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 10vw;
+}
+.btnStyle{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+.subComponent{
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+span{
+    color: white;
+}
+
+.searchIcon{
+    padding: 2px;
+    border: 1px solid black;   
+    border-radius: 5px;
+    background-color: rgba(81, 27, 131, 0.219) !important; 
+}
+input{
+    border: none;
+    padding: 4px;
+    font-size: 15px;
+    width: 20vw;
+    
+    background-color: rgba(81, 27, 131, 0) !important;  
+}
+input:focus{
+    outline: none;
+}.footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:rgba(81, 27, 131, 0.219) ;
+}
+.theader{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(81, 27, 131 );
+    letter-spacing: 3px;
+    
+    background-color:rgba(81, 27, 131, 0.219) ;
+}
+ button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+.mobileBtn{
+    display: none;
+}
+.mobileStock{
+    display: none;
+}
+@media only screen and (max-width: 850px) {
+    .stockTable{
+        display: none;
+    }
+    .mobileBtn{
+        display: block;
+        margin-left: 45vw;
+        margin-bottom: 5vh;
+    }
+    .mobileStock{
+        
+        display: block;
+        border-radius: 5px;
+        margin: 15vh 5vw;
+    }
+    .mobile{
+        display: none;
+    }
+  }
